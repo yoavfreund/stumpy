@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "features_cache": "whale_mfcc_193500_100hz.npz",
+    "frame_rate": 100.0,
+    "feature_columns": {
+      "c0": 1,
+      "c1": 2
+    },
+    "offset_014845_sec": 22424.5
+  },
+  "c0": {
+    "unit": {
+      "lo_s": 1.73,
+      "hi_s": 4.15,
+      "rate_hz": 100,
+      "threshold_r": 0.8867604399018516,
+      "source": "bump",
+      "supported": true,
+      "prior": [
+        1,
+        3
+      ],
+      "prior_overlap": true,
+      "peak_s": 8.0,
+      "peak_excess": 0.11240516072179595,
+      "accepted": false,
+      "localized": false,
+      "flat": false,
+      "at_edge": true,
+      "e_lo_s": 4.15,
+      "e_hi_s": 8.0,
+      "bump_range_s": [
+        1.73,
+        4.15
+      ],
+      "support": [
+        "best_r bump at 6.43 s",
+        "period 3.63 s",
+        "period 11.4 s",
+        "period 7.85 s",
+        "period 9.51 s",
+        "period 11.3 s",
+        "E peak at the band edge"
+      ],
+      "acf_periods_s": [
+        3.63,
+        11.39,
+        7.85,
+        9.51
+      ],
+      "offset_periods_s": [
+        11.275122128653326
+      ]
+    },
+    "phrase": {
+      "lo_s": 8.9,
+      "hi_s": 120.0,
+      "rate_hz": 10,
+      "threshold_r": 0.5109842123531647,
+      "source": "excess",
+      "supported": true,
+      "prior": null,
+      "prior_overlap": null,
+      "peak_s": 37.8,
+      "peak_excess": 0.2749322721972703,
+      "accepted": true,
+      "localized": true,
+      "flat": false,
+      "at_edge": true,
+      "e_lo_s": 8.9,
+      "e_hi_s": 120.0,
+      "bump_range_s": [
+        15.9,
+        15.9
+      ],
+      "support": [
+        "top_r bump at 15.9, 89.9 s",
+        "best_r bump at 50.4, 89.9 s",
+        "period 9.8 s",
+        "period 19.3 s",
+        "period 29.3 s",
+        "period 38.2 s"
+      ],
+      "acf_periods_s": [
+        9.8,
+        3.6,
+        19.3,
+        29.3,
+        38.2
+      ],
+      "offset_periods_s": []
+    },
+    "theme": {
+      "lo_s": 75.5,
+      "hi_s": 95.0,
+      "rate_hz": 2,
+      "threshold_r": 0.5337580313915871,
+      "source": "bump",
+      "supported": true,
+      "prior": null,
+      "prior_overlap": null,
+      "peak_s": 60.0,
+      "peak_excess": 0.27392849573466316,
+      "accepted": false,
+      "localized": false,
+      "flat": false,
+      "at_edge": true,
+      "e_lo_s": 60.0,
+      "e_hi_s": 151.0,
+      "bump_range_s": [
+        75.5,
+        95.0
+      ],
+      "support": [
+        "top_r bump at 95 s",
+        "best_r bump at 75.5, 120 s",
+        "E peak at the band edge"
+      ],
+      "acf_periods_s": [],
+      "offset_periods_s": []
+    },
+    "song": {
+      "lo_s": 420.0,
+      "hi_s": 540.0,
+      "rate_hz": 1,
+      "threshold_r": 0.7075931476014802,
+      "source": "regularity",
+      "supported": true,
+      "prior": [
+        600,
+        1200
+      ],
+      "prior_overlap": false,
+      "peak_s": 300.0,
+      "peak_excess": 0.011424532915382599,
+      "accepted": false,
+      "localized": null,
+      "flat": null,
+      "at_edge": null,
+      "e_lo_s": null,
+      "e_hi_s": null,
+      "bump_range_s": null,
+      "support": [
+        "peak excess 0.011 < 0.02"
+      ],
+      "acf_periods_s": [],
+      "offset_periods_s": [
+        1956.4219094547964
+      ],
+      "song_period_s": 744.0
+    }
+  },
+  "c1": {
+    "unit": {
+      "lo_s": 2.68,
+      "hi_s": 5.16,
+      "rate_hz": 100,
+      "threshold_r": 0.7991150217471445,
+      "source": "bump",
+      "supported": true,
+      "prior": [
+        1,
+        3
+      ],
+      "prior_overlap": true,
+      "peak_s": 8.0,
+      "peak_excess": 0.0882840154283468,
+      "accepted": false,
+      "localized": false,
+      "flat": false,
+      "at_edge": true,
+      "e_lo_s": 2.68,
+      "e_hi_s": 8.0,
+      "bump_range_s": [
+        2.68,
+        5.16
+      ],
+      "support": [
+        "top_r bump at 4.15 s",
+        "best_r bump at 2.68, 5.16 s",
+        "period 11.4 s",
+        "period 3.7 s",
+        "period 11.3 s",
+        "E peak at the band edge"
+      ],
+      "acf_periods_s": [
+        11.4,
+        3.7
+      ],
+      "offset_periods_s": [
+        11.275122128653326
+      ]
+    },
+    "phrase": {
+      "lo_s": 8.9,
+      "hi_s": 120.0,
+      "rate_hz": 10,
+      "threshold_r": 0.5706306696730123,
+      "source": "excess",
+      "supported": true,
+      "prior": null,
+      "prior_overlap": null,
+      "peak_s": 50.4,
+      "peak_excess": 0.1771932206040519,
+      "accepted": true,
+      "localized": true,
+      "flat": false,
+      "at_edge": true,
+      "e_lo_s": 8.9,
+      "e_hi_s": 120.0,
+      "bump_range_s": [
+        21.2,
+        50.4
+      ],
+      "support": [
+        "top_r bump at 8.9, 21.2, 37.8 s",
+        "best_r bump at 50.4, 89.9 s",
+        "period 11.1 s",
+        "period 19.4 s",
+        "period 29.8 s",
+        "period 45.6 s",
+        "period 57 s",
+        "period 19.7 s"
+      ],
+      "acf_periods_s": [
+        11.1,
+        19.4,
+        29.8,
+        45.6,
+        57.0
+      ],
+      "offset_periods_s": [
+        19.690085762315118
+      ]
+    },
+    "theme": {
+      "lo_s": 60.0,
+      "hi_s": 302.5,
+      "rate_hz": 2,
+      "threshold_r": 0.5283751038318081,
+      "source": "excess",
+      "supported": true,
+      "prior": null,
+      "prior_overlap": null,
+      "peak_s": 95.0,
+      "peak_excess": 0.19763560646135214,
+      "accepted": true,
+      "localized": true,
+      "flat": false,
+      "at_edge": true,
+      "e_lo_s": 60.0,
+      "e_hi_s": 302.5,
+      "bump_range_s": [
+        75.5,
+        95.0
+      ],
+      "support": [
+        "top_r bump at 75.5, 302.5 s",
+        "best_r bump at 75.5, 302.5 s",
+        "period 46 s",
+        "period 58 s",
+        "period 69 s",
+        "period 79.5 s"
+      ],
+      "acf_periods_s": [
+        46.0,
+        58.0,
+        69.0,
+        79.5,
+        672.5
+      ],
+      "offset_periods_s": []
+    },
+    "song": {
+      "lo_s": 300.0,
+      "hi_s": 600.0,
+      "rate_hz": 1,
+      "threshold_r": 0.5894097955625366,
+      "source": "regularity",
+      "supported": true,
+      "prior": [
+        600,
+        1200
+      ],
+      "prior_overlap": true,
+      "peak_s": 1200.0,
+      "peak_excess": 0.09947097735796345,
+      "accepted": false,
+      "localized": false,
+      "flat": true,
+      "at_edge": true,
+      "e_lo_s": 300.0,
+      "e_hi_s": 1500.0,
+      "bump_range_s": [
+        1320.0,
+        1380.0
+      ],
+      "support": [
+        "top_r bump at 600, 840, 1320 s",
+        "best_r bump at 360, 1080, 1380 s",
+        "period 788 s",
+        "period 1.55e+03 s",
+        "period 1.51e+03 s",
+        "period 1.36e+03 s",
+        "period 2.11e+03 s",
+        "period 881 s",
+        "E flat over the band"
+      ],
+      "acf_periods_s": [
+        788.0,
+        1548.0,
+        1506.0,
+        1359.0,
+        2106.0
+      ],
+      "offset_periods_s": [
+        880.9156401480157
+      ],
+      "song_period_s": 788.0
+    }
+  }
+}
